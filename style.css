@@ -35,7 +35,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task__wrapper {
@@ -53,7 +53,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -160,15 +160,15 @@ button{
 
 /* Edit Task start*/
 .tasks__list .list__item .task[type=text] {
-  display:none;
+  display: none;
 }
 
 .tasks__list .edit__mode .task[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .tasks__list .edit__mode label {
-  display:none;
+  display: none;
 }
 /* Edit Task end*/
